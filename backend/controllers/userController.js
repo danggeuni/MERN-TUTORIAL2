@@ -19,8 +19,6 @@ const getMe = (req, res) => {
   res.json({ message: "User data display" });
 };
 
-//테스트
-
 module.exports = {
   registerUser,
   loginUser,
